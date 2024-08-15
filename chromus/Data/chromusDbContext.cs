@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace chromus.Data;
 
-public class chromustDbContext : DbContext
+public class chromusDbContext : DbContext
 {
-    public chromustDbContext(DbContextOptions<chromustDbContext> options) : base(options)
+    public chromusDbContext(DbContextOptions<chromusDbContext> options) : base(options)
     {
 
     }

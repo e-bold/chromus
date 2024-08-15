@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("chromus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f28c156a0be26757b2b2cfef3e1eb9e1ab80669b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f035f4d978ddb282504252298e2b403d1d3fcf76")]
 [assembly: System.Reflection.AssemblyProductAttribute("chromus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("chromus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

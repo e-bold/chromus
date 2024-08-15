@@ -9,8 +9,8 @@ using chromus.Data;
 
 namespace chromus.Migrations
 {
-    [DbContext(typeof(chromustDbContext))]
-    partial class chromustDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(chromusDbContext))]
+    partial class chromusDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

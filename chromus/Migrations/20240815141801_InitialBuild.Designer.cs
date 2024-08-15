@@ -10,8 +10,8 @@ using chromus.Data;
 
 namespace chromus.Migrations
 {
-    [DbContext(typeof(chromustDbContext))]
-    [Migration("20240815000414_InitialBuild")]
+    [DbContext(typeof(chromusDbContext))]
+    [Migration("20240815141801_InitialBuild")]
     partial class InitialBuild
     {
         /// <inheritdoc />

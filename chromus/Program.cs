@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 var connectionString = "server=localhost; user=chromus; password=bigbrain123; database=chromus";
 var serverVersion = new MySqlServerVersion( new Version(8, 0, 36));
 
-builder.Services.AddDbContext<chromustDbContext>(DbContextOptions => DbContextOptions.UseMySql(connectionString, serverVersion));
+builder.Services.AddDbContext<chromusDbContext>(DbContextOptions => DbContextOptions.UseMySql(connectionString, serverVersion));
 
 var app = builder.Build();
 
