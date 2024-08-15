@@ -1,7 +1,15 @@
+using chromus.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString = "server=localhost; user=chromus; password=bigbrain123; database=chromus";
+var serverVersion = new MySqlServerVersion( new Version(8, 0, 36));
+
+builder.Services.AddDbContext<chromustDbContext>(DbContextOptions => DbContextOptions.UseMySql(connectionString, serverVersion));
 
 var app = builder.Build();
 
